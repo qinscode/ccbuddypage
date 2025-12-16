@@ -35,6 +35,8 @@ const Navbar = () => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            width: '40px',
+            height: '40px'
           }}>
             <img src="/assets/logo.png" alt="CCBuddy Logo" style={{ width: '40px', height: '40px' }} />
           </div>

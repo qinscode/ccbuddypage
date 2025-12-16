@@ -14,6 +14,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
+          style={{ opacity: 0 }} // Prevent FOUC
         >
           <div style={{ 
             display: 'inline-block', 
@@ -63,7 +64,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          style={{ position: 'relative' }}
+          style={{ position: 'relative', opacity: 0 }} // Prevent FOUC
         >
           <div style={{ 
             position: 'relative', 
